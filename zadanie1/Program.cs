@@ -20,9 +20,9 @@ namespace zadanie1
         {
             int counter = 0;
             int sum = 0;
-            foreach (int integer in inputs)
+            foreach (int lba in inputs)
             {
-                sum += integer;
+                sum += lba;
                 counter++;
             }
 
