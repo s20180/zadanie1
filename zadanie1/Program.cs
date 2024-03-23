@@ -10,7 +10,22 @@ namespace zadanie1
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello C#!");
+            int[] demoArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            System.Console.WriteLine("Inputs: " + demoArr);
+            System.Console.WriteLine("Average: " + Average(demoArr));
+        }
+
+        private static double Average(int[] inputs)
+        {
+            int counter = 0;
+            int sum = 0;
+            foreach (int integer in inputs)
+            {
+                sum += integer;
+                counter++;
+            }
+
+            return sum / counter;
         }
     }
 }
