@@ -10,7 +10,7 @@ namespace zadanie1
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("HelloWorld!");
+            System.Console.WriteLine("Hello C#!");
         }
     }
 }
