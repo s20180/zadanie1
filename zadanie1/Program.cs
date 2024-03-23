@@ -13,6 +13,7 @@ namespace zadanie1
             int[] demoArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             System.Console.WriteLine("Inputs: " + demoArr);
             System.Console.WriteLine("Average: " + Average(demoArr));
+            System.Console.WriteLine("Max: " + Max(demoArr));
         }
 
         private static double Average(int[] inputs)
@@ -31,6 +32,21 @@ namespace zadanie1
             }
             
             return sum / counter;
+        }
+
+        private static int Max(int[] inputs)
+        {
+            int max = inputs[0];
+
+            foreach (int integer in inputs)
+            {
+                if (max < integer)
+                {
+                    max = integer;
+                }
+            }
+            
+            return max;
         }
     }
 }
