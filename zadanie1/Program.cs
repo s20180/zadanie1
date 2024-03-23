@@ -19,7 +19,7 @@ namespace zadanie1
         private static double Average(int[] inputs)
         {
             int counter = 0;
-            int sum = 0;
+            int sum = 0
             foreach (int iteratedInt in inputs)
             {
                 sum += iteratedInt;
