@@ -25,6 +25,11 @@ namespace zadanie1
                 counter++;
             }
 
+            if (counter == 0)
+            {
+                counter++;
+            }
+            
             return sum / counter;
         }
     }
